@@ -7,7 +7,7 @@ int main ()
     int i=0,count;
     scanf("%s",name);
     scanf("%c",search);
-    for(i=0,name[i]!= NULL ,i++)
+    for(i=0;name[i]!= NULL ;i++)
     {
         if(search==name[i])
         {
