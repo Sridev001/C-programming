@@ -4,7 +4,7 @@ int main ()
 int person,a;
 printf("Age of the person = ");
 scanf("%d",&person);
-if(person>18)
+if(person>=18)
 {printf("eligible for vote");
 }
 else
